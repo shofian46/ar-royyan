@@ -835,7 +835,7 @@ input {
 .contact__form {
   position: relative;
   row-gap: 2rem;
-  justify-content: start;
+  display: block;
 }
 
 .contact__form-div {
