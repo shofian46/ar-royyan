@@ -787,7 +787,6 @@ input {
 .contact__info {
   row-gap: 2rem;
   justify-content: center;
-  text-align: center;
 }
 
 .contact__data {
@@ -797,6 +796,7 @@ input {
 .contact__data-title {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
+  text-align: center;
 }
 
 .contact__data-info {
