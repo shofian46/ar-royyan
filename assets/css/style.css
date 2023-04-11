@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    170deg,
+    hsl(249, 100%, 22%) 0%,
+    hsl(249, 100%, 6%) 30%
+  );
+}
+
+/*------------ Login container ------------*/
+
+.box-area {
+  width: 930px;
+}
+
+.be-verified {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+.bg-blue {
+  background: linear-gradient(
+    170deg,
+    hsl(249, 100%, 22%) 0%,
+    hsl(249, 100%, 6%) 30%
+  );
+}
+
+.back-home i {
+  color: white;
+  padding: 0.2rem;
+  font-size: 1rem;
+}
+
+.back-home {
+  background: linear-gradient(
+    170deg,
+    hsl(249, 100%, 22%) 0%,
+    hsl(249, 100%, 6%) 30%
+  );
+  border-radius: 2rem;
+  padding: 1rem;
+  width: max-content;
+  display: flex;
+  margin-left: auto;
+  margin-top: -4.5rem;
+  margin-right: -4.5rem;
+}
+
+.section-subtitle {
+  width: 17rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*------------ Right box ------------*/
+
+.right-box {
+  padding: 40px 30px 40px 40px;
+}
+
+.forgot small a,
+small a {
+  text-decoration: none;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder {
+  font-size: 16px;
+}
+
+.rounded-4 {
+  border-radius: 20px;
+}
+.rounded-5 {
+  border-radius: 30px;
+}
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+  }
+  .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+  .right-box {
+    padding: 20px;
+  }
+}
