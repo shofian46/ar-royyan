@@ -791,6 +791,7 @@ input {
 
 .contact__data {
   row-gap: 0.75rem;
+  justify-content: center;
 }
 
 .contact__data-title {
