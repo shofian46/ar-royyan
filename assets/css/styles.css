@@ -782,12 +782,11 @@ input {
 .contact__form,
 .contact__data {
   display: grid;
+  justify-content: center;
 }
 
 .contact__info {
   row-gap: 2rem;
-  display: grid;
-  justify-content: center;
 }
 
 .contact__data {
@@ -831,6 +830,7 @@ input {
 .contact__form {
   position: relative;
   row-gap: 2rem;
+  justify-content: start;
 }
 
 .contact__form-div {
