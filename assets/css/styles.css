@@ -779,10 +779,9 @@ input {
 }
 
 .contact__info,
+.contact__form,
 .contact__data {
   display: grid;
-  justify-content: center;
-  text-align: center;
 }
 
 .contact__info {
@@ -791,12 +790,6 @@ input {
 
 .contact__data {
   row-gap: 0.75rem;
-}
-
-.contact__data-title,
-.contact__data-info,
-.contact__button{
-  justify-content: center;
 }
 
 .contact__data-title {
@@ -813,6 +806,7 @@ input {
 .contact__button {
   width: max-content;
   display: inline-flex;
+  align-items: center;
   column-gap: 0.5rem;
   color: var(--title-color);
   font-size: var(--small-font-size);
@@ -835,8 +829,7 @@ input {
 
 .contact__form {
   position: relative;
-  grid-template-columns: repeat(max-content);
-  display: flex;
+  row-gap: 2rem;
 }
 
 .contact__form-div {
