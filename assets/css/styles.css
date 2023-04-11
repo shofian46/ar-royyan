@@ -779,7 +779,6 @@ input {
 }
 
 .contact__info,
-.contact__form,
 .contact__data {
   display: grid;
   justify-content: center;
