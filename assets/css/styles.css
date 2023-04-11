@@ -782,6 +782,7 @@ input {
 .contact__data {
   display: grid;
   justify-content: center;
+  text-align: center;
 }
 
 .contact__info {
