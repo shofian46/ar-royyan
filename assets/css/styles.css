@@ -834,8 +834,8 @@ input {
 
 .contact__form {
   position: relative;
-  row-gap: 2rem;
-  display: block;
+  grid-template-columns: repeat(max-content);
+  display: flex;
 }
 
 .contact__form-div {
