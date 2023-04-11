@@ -433,7 +433,11 @@ input {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background: linear-gradient(
+    170deg,
+    hsl(249, 100%, 22%) 0%,
+    hsl(249, 100%, 6%) 30%
+  );
   color: var(--white-color);
   padding: 1rem 2rem;
   border-radius: 0.75rem;
@@ -442,7 +446,11 @@ input {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background: linear-gradient(
+    170deg,
+    hsl(249, 100%, 49%) 0%,
+    hsl(249, 100%, 6%) 30%
+  );
 }
 
 .button--flex {
@@ -620,6 +628,7 @@ input {
   right: 1rem;
   bottom: -1rem;
   padding: 1rem 1.5rem;
+  border-radius: 22px 10px;
 }
 
 .video__button-icon {
@@ -702,6 +711,9 @@ input {
   right: 0;
   bottom: 0;
   padding: 0.75rem 1rem;
+  margin-right: -0.1rem;
+  margin-bottom: -0.1rem;
+  border-radius: 22px 10px;
 }
 
 /*=============== SUBSCRIBE ===============*/
@@ -790,7 +802,6 @@ input {
   column-gap: 0.5rem;
   color: var(--title-color);
   font-size: var(--small-font-size);
-  padding-left: 1.5rem;
 }
 
 .contact__button i {
@@ -1240,6 +1251,7 @@ input {
   .place__card,
   .place__img {
     height: 263px;
+    border-radius: 20px;
   }
   .contact__container {
     grid-template-columns: repeat(2, max-content);
