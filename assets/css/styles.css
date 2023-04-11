@@ -786,7 +786,7 @@ input {
 
 .contact__info {
   row-gap: 2rem;
-  text-align: center;
+  justify-content: center;
 }
 
 .contact__data {
